@@ -44,8 +44,8 @@
 
 5. User Demographic
     * This website targets two main user groups:
-      
-      * Bakery Customers:
+     
+     * Bakery Customers:
          * Bakery lovers who value convenience and artisanal products
          * Shoppers who support local or small businesses
 
@@ -59,7 +59,8 @@
       * Products such as: name, image, description, price, category, tags, stock.
       * Users
       * Order: cart items, user info, payment status.
-    * All data will be stored in MongoDB
+        
+   * All data will be stored in MongoDB
 
 
 7. Project Approach
@@ -89,22 +90,22 @@
      * Payment Information: Payment information must be processed securely through third-party services.
    
     * Functionality
-     1. User Authentication:
+      * User Authentication:
         * Users can sign up, log in, and securely access their accounts.
         * Admins have specific routes for managing products and orders.
         
-     2. Product Management:
+     * Product Management:
         * Users can browse products, view details, and add items to their cart.
         * Admin users can add, update, or delete products.
          
-     3. Shopping Cart & Checkout:
+     * Shopping Cart & Checkout:
         * Users can view their cart, modify quantities, or remove items.
         * During checkout, users provide shipping details and confirm their order.
         
-     4. Order Management:
+     * Order Management:
         * Admin users can view and update orders, changing their status (e.g., from "pending" to "shipped").
         
-     5. Admin Dashboard:
+     * Admin Dashboard:
         * Admin users can see an overview of orders and manage product inventory.
 
 8. User Flow
