@@ -44,14 +44,14 @@
 
 5. User Demographic
     * This website targets two main user groups:
-   
-     1. Bakery Customers:
-      * Bakery lovers who value convenience and artisanal products
-      * Shoppers who support local or small businesses
+      
+      * Bakery Customers:
+         * Bakery lovers who value convenience and artisanal products
+         * Shoppers who support local or small businesses
 
-     2. Admin Users:
-      * Bakery owners or staff who manage stock, products, and orders
-      * Individuals responsible for product inventory, pricing, and orders
+     * Admin Users:
+        * Bakery owners or staff who manage stock, products, and orders
+        * Individuals responsible for product inventory, pricing, and orders
 
 
 6. Data and API
