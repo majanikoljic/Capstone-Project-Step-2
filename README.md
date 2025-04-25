@@ -2,7 +2,7 @@
 
 1. Tech Stack
    
-   ● Frontend
+   * Frontend
      ○ React – JavaScript library for building UIs
      ○ React Router – Handles navigation between pages
      ○ CSS – CSS framework for responsive, modern styling
