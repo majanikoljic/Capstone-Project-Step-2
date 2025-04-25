@@ -2,7 +2,7 @@
 
 1. Tech Stack
    
-   * Frontend
+   * Frontend:
      * React – JavaScript library for building UIs
      * React Router – Handles navigation between pages
      * CSS – CSS framework for responsive, modern styling
@@ -84,12 +84,12 @@
        * Data Validation: Ensuring input data like product details, shipping information is validated.
        * Scaling: As the user base and data grow, the application may require optimizations for speed and efficiency.
 
-    * Sensitive Information
+    * Sensitive Information:
        * User Authentication: Passwords must be hashed before storage using a library like bcrypt.
        * User Data: Email addresses, shipping addresses, and order history are sensitive and must be protected against unauthorized access.
        * Payment Information: Payment information must be processed securely through third-party services.
    
-    * Functionality
+    * Functionality:
       * User Authentication:
         * Users can sign up, log in, and securely access their accounts.
         * Admins have specific routes for managing products and orders.
