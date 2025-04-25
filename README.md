@@ -79,15 +79,15 @@
      * Deploy frontend and backend separately
 
     * Potential API Issues:
-     * Concurrency Issues: Ensuring stock is properly updated when two users attempt to buy the same product at the same time.
-     * Error Handling: Returning appropriate error messages for common issues, such as invalid input or failed database operations.
-     * Data Validation: Ensuring input data like product details, shipping information is validated.
-     * Scaling: As the user base and data grow, the application may require optimizations for speed and efficiency.
+       * Concurrency Issues: Ensuring stock is properly updated when two users attempt to buy the same product at the same time.
+       * Error Handling: Returning appropriate error messages for common issues, such as invalid input or failed database operations.
+       * Data Validation: Ensuring input data like product details, shipping information is validated.
+       * Scaling: As the user base and data grow, the application may require optimizations for speed and efficiency.
 
     * Sensitive Information
-     * User Authentication: Passwords must be hashed before storage using a library like bcrypt.
-     * User Data: Email addresses, shipping addresses, and order history are sensitive and must be protected against unauthorized access.
-     * Payment Information: Payment information must be processed securely through third-party services.
+       * User Authentication: Passwords must be hashed before storage using a library like bcrypt.
+       * User Data: Email addresses, shipping addresses, and order history are sensitive and must be protected against unauthorized access.
+       * Payment Information: Payment information must be processed securely through third-party services.
    
     * Functionality
       * User Authentication:
