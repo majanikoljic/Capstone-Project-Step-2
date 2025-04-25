@@ -3,10 +3,10 @@
 1. Tech Stack
    
    * Frontend
-     ○ React – JavaScript library for building UIs
-     ○ React Router – Handles navigation between pages
-     ○ CSS – CSS framework for responsive, modern styling
-     ○ Axios – For communicating with the backend API
+     * React – JavaScript library for building UIs
+     * React Router – Handles navigation between pages
+     * CSS – CSS framework for responsive, modern styling
+     * Axios – For communicating with the backend API
 
    ● Backend:
      ○ Node.js + Express.js – To build APIs and manage server side logic
