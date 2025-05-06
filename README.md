@@ -66,7 +66,7 @@ Full Bakery Website
 
 7. Project Approach
    * Database Schema:
-     * Users: id, name, email, password, role
+     * Users: id, name, email, password, role - 2 roles, admin role and costumer role
      * Products: id, name, description, price, stock, image
      * Orders: id, userId, items, totalPrice, shippingInfo, status
    
