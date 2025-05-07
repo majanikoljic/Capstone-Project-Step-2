@@ -68,7 +68,7 @@ Full Bakery Website
    * Database Schema:
      * Users: id, name, email, password, role - 2 roles, admin role and costumer role
      * Products: id, name, description, price, stock, image
-     * Orders: id, userId, items, totalPrice, shippingInfo, status
+     * Orders: id, userId, items, totalPrice, pickupInfo, status
    
    * Development Plan:
      * Setup backend API (Node.js + MongoDB)
@@ -82,12 +82,12 @@ Full Bakery Website
     * Potential API Issues:
        * Concurrency Issues: Ensuring stock is properly updated when two users attempt to buy the same product at the same time.
        * Error Handling: Returning appropriate error messages for common issues, such as invalid input or failed database operations.
-       * Data Validation: Ensuring input data like product details, shipping information is validated.
+       * Data Validation: Ensuring input data like product details is validated.
        * Scaling: As the user base and data grow, the application may require optimizations for speed and efficiency.
 
     * Sensitive Information:
        * User Authentication: Passwords must be hashed before storage using a library like bcrypt.
-       * User Data: Email addresses, shipping addresses, and order history are sensitive and must be protected against unauthorized access.
+       * User Data: Email addresses, order history are sensitive and must be protected against unauthorized access.
        * Payment Information: Payment information must be processed securely through third-party services.
    
     * Functionality:
@@ -101,10 +101,10 @@ Full Bakery Website
          
      * Shopping Cart & Checkout:
         * Users can view their cart, modify quantities, or remove items.
-        * During checkout, users provide shipping details and confirm their order.
+        * During checkout, users provide pickup details and confirm their order.
         
      * Order Management:
-        * Admin users can view and update orders, changing their status (e.g., from "pending" to "shipped").
+        * Admin users can view and update orders, changing their status.
         
      * Admin Dashboard:
         * Admin users can see an overview of orders and manage product inventory.
@@ -115,7 +115,7 @@ Full Bakery Website
      * Shop: Navigate to the shop page to view all products.
      * Product Detail: Click on a product to see its detailed description and add it to the cart.
      * Cart: Go to the cart page to review products and quantities.
-     * Checkout: Enter shipping details and proceed to payment.
+     * Checkout: Enter pickup details and proceed to payment.
      * Order Confirmation: After checkout, the customer receives a summary of their order.
    
    * Admin Flow:
@@ -124,6 +124,5 @@ Full Bakery Website
      * Product Management: Add, update, or delete products.
      * Order Management: View and update the status of customer orders.
 
-   I AM NOT SURE IF I WANT TO DO ORDERS TO BE ABLE TO SHIP. I AM EITHER THINKING TO DO ORDERS FOR SHIPPING OR JUST ORDERING FOR PICKUP.
     
          
